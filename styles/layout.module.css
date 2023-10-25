@@ -1,0 +1,271 @@
+.headerWrap {
+    align-items: flex-start;
+    justify-content: center;
+    height: 240px;
+    box-sizing: border-box;
+    border-bottom: 1px solid gray;
+    color: white;
+}
+
+.categoryWrap {
+    height: 30%;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.categoryBox {
+    width: fit-content;
+    padding: 10px 10px;
+    font-size: 10px;
+    background-color: rgba(32, 32, 32, 0.7);
+    font-weight: bold;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.headingWrap {
+    align-items: flex-start;
+    height: 70%;
+    box-sizing: border-box;
+}
+
+.titleWrap {
+    padding-left: 26px;
+    height: 60%;
+    font-size: 34px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.authorWrap {
+    height: 40%;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.authorBox {
+    font-size: 14px;
+    padding: 0px 6px;
+    box-sizing: border-box;
+    gap: 6px;
+}
+
+.dateBox {
+    font-size: 14px;
+}
+
+.postWrap {}
+
+.postBox {
+    width: 100%;
+    height: auto;
+    max-width: 560px;
+}
+
+.post {
+    margin-top: 40px;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+
+.fitImg {
+    position: relative;
+    overflow: hidden;
+    min-height: 300px;
+}
+
+.profileWrap {
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.profileCircleWrap {
+    height: 30%;
+    width: 30%;
+    max-width: 50px;
+}
+
+.profileCircle {
+    border-radius: 50%;
+    background-color: black;
+    width: 100%;
+    padding-top: 100%;
+    height: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.profileBox {
+    height: 70%;
+    width: 200px;
+}
+
+.profileName {
+    font-weight: bold;
+    padding: 20px 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.profileExp {
+    height: 70%;
+}
+
+.profileExp p {
+    max-width: 200px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.profileCard {
+    background-color: rgb(245, 245, 245);
+    padding: 40px 120px;
+    border-radius: 10px;
+}
+
+.moveWrap {
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.moveBox {
+    font-size: 12px;
+}
+
+.moveBox p {
+    border-bottom: 1px solid gray;
+    box-sizing: border-box;
+    margin: 0 4px;
+    font-weight: bold;
+}
+
+.moveBoxWrap {
+    width: 440px;
+    justify-content: space-between;
+}
+
+.replyWrap {
+    justify-content: flex-start;
+    width: 440px;
+    height: auto;
+    padding: 30px 0;
+    margin-bottom: 40px;
+}
+
+.replyCount {
+    height: 24px;
+    justify-content: flex-start;
+}
+
+.replyCount p {
+    width: 100%;
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+}
+
+.reply {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.reply::placeholder {
+    font-size: 12px;
+    font-weight: bold;
+    color: lightgray;
+}
+
+.replyBox {
+    height: auto;
+}
+
+.replyCard {}
+
+.replyBox {}
+
+.replyCard {
+    justify-content: space-around;
+}
+
+.profileReplyBox {
+    width: 80%;
+}
+
+.replyBox {
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.replyName {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.replyDate {
+    font-size: 14px;
+    color: gray;
+}
+
+.replyContent {
+    font-size: 12px;
+    padding-top: 8px;
+}
+
+.allPostsWrap {
+    width: 440px;
+}
+
+.allPostsTitle {
+    font-weight: bold;
+}
+
+.postsWrap {}
+
+.postsList {
+    justify-content: space-between;
+}
+
+.postsBox {
+    width: 200px;
+    padding: 10px 0;
+    align-items: flex-start;
+}
+
+.moreImage {}
+
+.moreDate {
+    font-weight: bold;
+    color: gray;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.moreTitle {
+    margin: 4px 0;
+    font-weight: bold;
+}
+
+.moreSummary {
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.moreCategoryBox {
+    width: fit-content;
+    padding: 6px 6px;
+    font-size: 8px;
+    background-color: rgba(32, 32, 32, 0.7);
+    font-weight: bold;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
